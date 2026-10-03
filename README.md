@@ -14,7 +14,9 @@ Open `index.html` in a modern browser. Use the switch in the header to move betw
 - Studio calendar and appointment overview
 - Customer list with per-appointment deposit status
 - Studio profile editing mockup
+- Transparent Crown Skull logo included
+- Local logo and gallery upload previews
 
 ## Prototype scope
 
-This is a front-end mockup with sample data. Forms, uploaded files, messages, bookings, notifications, and deposit tracking are not persisted or connected to external services yet.
+This is a front-end mockup with sample data. Forms, messages, bookings, notifications, and deposit tracking are not connected to external services. Image uploads update only the current browser preview; they are not stored on a server.
