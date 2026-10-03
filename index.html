@@ -35,8 +35,9 @@ body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;back
 .photo:nth-child(2){background:radial-gradient(circle at 49% 42%,#3976a0,#29353b 44%,#171313 80%)}
 .photo:nth-child(3){background:radial-gradient(circle at 50% 36%,#b04b24,#49251b 47%,#171313 80%)}
 
-/* Clear card surfaces so the fixed logo watermark shows through */
-.card,.stat,.appt,.avail,.note{background:transparent!important}
+/* Clear card and hero surfaces so the fixed logo watermark shows through */
+.hero,.card,.stat,.appt,.avail,.note{background:transparent!important}
+.hero{border-color:rgba(214,154,83,.25)}
 .card{border-color:rgba(214,154,83,.22)}
 .stat{border:1px solid rgba(214,154,83,.16)}
 .appt{border:1px solid rgba(214,154,83,.14)}
